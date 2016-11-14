@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B81062A9
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleGit.Web", "src\SampleGit.Web\SampleGit.Web.xproj", "{F3537DA3-B155-453F-9D7C-CE11873C9A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGit.Web.Test", "tests\SampleGit.Web.Test\SampleGit.Web.Test.csproj", "{79DE0066-7488-4081-A885-6FE96B1D3631}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,16 @@ Global
 		{F3537DA3-B155-453F-9D7C-CE11873C9A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3537DA3-B155-453F-9D7C-CE11873C9A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3537DA3-B155-453F-9D7C-CE11873C9A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79DE0066-7488-4081-A885-6FE96B1D3631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DE0066-7488-4081-A885-6FE96B1D3631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DE0066-7488-4081-A885-6FE96B1D3631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DE0066-7488-4081-A885-6FE96B1D3631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F3537DA3-B155-453F-9D7C-CE11873C9A14} = {332085B8-E2BC-4156-8BE1-E104F8DC7C32}
+		{79DE0066-7488-4081-A885-6FE96B1D3631} = {B81062A9-E747-4A55-B17F-C1A17855074A}
 	EndGlobalSection
 EndGlobal
