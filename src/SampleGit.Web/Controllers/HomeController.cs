@@ -11,6 +11,7 @@ namespace SampleGit.Web.Controllers
         public IActionResult Index()
         {
             ViewBag.Message = "Commit from Feature Branch";
+            ViewBag.Message2 = "Commit from Feature Branch 2";
             return View();
         }
 
